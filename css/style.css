@@ -114,6 +114,7 @@ body{
 }
 
 .heading{
+    font-family: "TT_Lake";
     font-size: 30px;
 }
 
@@ -179,6 +180,7 @@ body{
 }
 
 .text{
+    font-family: "TT_Lake";
     font-size: 15px;
     padding: 0;
     margin-right: 10px;
