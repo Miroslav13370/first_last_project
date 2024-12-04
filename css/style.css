@@ -1,5 +1,5 @@
 @font-face {
-    font-family: TTLakes;
+    font-family: "TTLakes";
     font-weight: 700;
     src: url(css/TTLakes-Bold.ttf) format("ttf");
     font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: TTLakes;
+    font-family: "TTLakes";
     font-weight: 400;
     src: url(css/TTLakes-Regular.ttf) format("ttf");
     font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {    
-    font-family: TTLakes;
+    font-family: "TTLakes";
     font-weight: 500;
     src: url(css/TTLakes-Medium.ttf) format("ttf");
     font-style: normal;
