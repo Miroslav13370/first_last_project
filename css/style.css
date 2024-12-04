@@ -1,23 +1,23 @@
 @font-face {
-    font-family: "TTLakes";
+    font-family:"TTLakes";
     font-weight: 700;
-    src: url(TTLakes-Bold.ttf) format("ttf");
+    src: url(TTLakes-Bold.woff);
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "TTLakes";
+    font-family:"TTLakes";
     font-weight: 400;
-    src: url(TTLakes-Regular.ttf) format("ttf");
+    src: url(TTLakes-Regular.woff);
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {    
-    font-family: "TTLakes";
+    font-family:"TTLakes";
     font-weight: 500;
-    src: url(TTLakes-Medium.ttf) format("ttf");
+    src: url(TTLakes-Medium.woff);
     font-style: normal;
     font-display: swap;
 }
