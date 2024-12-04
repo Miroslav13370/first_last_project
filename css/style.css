@@ -7,24 +7,27 @@ html {
   }
 
 @font-face {
-    font-family: TT_Lake;
-    src: url(font/TTLakes-Bold.woff);
+    font-family: "TT Lakes";
+    src: local("TT Lakes");
+         url(font/TTLakes-Medium.woff) format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: TT_Lake;
-    src: url(font/TTLakes-Regular.woff);
+    font-family: "TT Lakes";
+    src: local("TT Lakes");
+         url(font/TTLakes-Medium.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {    
-    font-family: TT_Lake;
-    src: url(font/TTLakes-Medium.woff);
+    font-family: "TT Lakes";
+    src: local("TT Lakes");
+         url(font/TTLakes-Medium.woff) format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -35,7 +38,7 @@ body{
     padding: 0;
     margin-left: 0;
     margin: 0;
-    font-family: TT_Lake;
+    font-family: "TT Lakes";
 }
 
 .menu-botton-list{
