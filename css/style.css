@@ -35,6 +35,19 @@ body{
     margin-left: 0;
     margin: 0;
     font-family: TTLakes;
+    background-color: #F8F8F8;
+}
+
+.center{
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: white;
 }
 
 .menu-botton-list{
@@ -43,22 +56,36 @@ body{
     padding: 10px 15px;
     margin: 0;
     align-items: center;
+
+}
+
+.menu-botton-box{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .user-set{
-    display: flex;
-    justify-content: flex-end;
-    border-left: 2px solid rgba(196, 184, 187, 0.747);
-    border-right: 2px solid rgba(196, 184, 187, 0.747);
-    width: 75%;
+    text-align: right;
+    width: 70%;
     padding-left: 10px;
     padding-right: 10px;
-    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.border-rigth{
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.border-left{
+    padding-left: 20px;
+    padding-right: 15px;
 }
 
 .user-status{
-    display: flex;
-    justify-content: space-around;
     width: 15%;
     margin: 0;
     padding: 0;
@@ -74,13 +101,7 @@ body{
 
 }
 
-.logo{
-    margin-right: auto;
-}
 
-.profile-botton{
-    padding-right: 5%;
-}
 
 
 .list{
@@ -163,9 +184,11 @@ body{
 }
 
 .detailed-information__text{
+    position: relative;
     padding: 0;
     margin: 0;
     flex: 1
+
 }
 
 .detailed-information__img{
@@ -181,7 +204,7 @@ body{
     font-size: 15px;
     padding: 0;
     margin-right: 10px;
-    min-width: 25vh;
+    min-width: 40%;
     max-height: 30vh;
     overflow: hidden
 }
@@ -199,13 +222,17 @@ body{
 }
 
 
-@media (max-width: 501px){
+@media (max-width: 700px){
+    .detailed-information{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 500px){
     .detailed-information{
         flex-wrap: nowrap;
         flex-direction: column;
-    }
-    .tel-botton, .chat-botton, .profile-botton{
-        display: none;
     }
 
     .user-status{
@@ -214,6 +241,11 @@ body{
 
     .user-set{
         width: 50%
+        
+    }
+
+    .tel-botton, .chat-botton, .profile-botton{
+        display: none;
     }
 
     .detailed-information__img{
@@ -229,11 +261,26 @@ body{
 
     .logo{
         margin: 0;
+        padding-left: 20px;
     }
     .user-set{
         justify-content: center;
         border-left: none;
     }
+
+    .border-left{
+        display: none;
+    }
+}
+
+@media (max-width: 325px){
+    .user-set{
+        width: 53%;
+    }
+
+
+    
+
 
 }
 
@@ -244,5 +291,14 @@ body{
 
     .heading-line-item{
         display: block;
+    }
+
+    .center{
+        display: inline-block;
+        max-width: 1120px;
+    }
+    body{
+        display: flex;
+        justify-content: center
     }
 }
